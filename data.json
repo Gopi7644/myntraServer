@@ -1,0 +1,410 @@
+{
+   "menus": {
+    "MEN": [
+      {
+        "category": "Topwear",
+        "items": ["T-Shirts", "Casual Shirts", "Jackets"]
+      },
+      { "category": "Bottomwear", "items": ["Jeans", "Trousers", "Shorts"] },
+      {
+        "category": "Footwear",
+        "items": ["Sneakers", "Sports Shoes", "Flip Flops"]
+      }
+    ],
+    "WOMEN": [
+      { "category": "Ethnic Wear", "items": ["Sarees", "Kurtis", "Lehengas"] },
+      { "category": "Western Wear", "items": ["Tops", "Dresses", "Jeans"] }
+    ],
+    "KIDS": [
+      { "category": "Boys", "items": ["Shirts", "Jeans", "Shoes"] },
+      { "category": "Girls", "items": ["Dresses", "Tops", "Shoes"] }
+    ],
+    "HOME": [
+      { "category": "Decor", "items": ["Curtains", "Lamps", "Furniture"] }
+    ],
+    "BEAUTY": [
+      { "category": "Makeup", "items": ["Lipstick", "Foundation", "Perfume"] }
+    ],
+    "GENZ": [
+      { "category": "Trendy", "items": ["Oversized Tees", "Chunky Sneakers"] }
+    ],
+    "STUDIO": [
+      {
+        "category": "Collections",
+        "sup": "new",
+        "items": ["Exclusive Drops", "Trending"]
+      }
+    ]
+  },
+  "carousel": {
+    "carousel": [
+      {
+        "index": 0,
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg",
+        "link": "https://www.myntra.com/accessories?f=Brand%3AHAUTE%20SAUCE%20by%20%20Campus%20Sutra%3A%3ACategories%3AClutches%2CHandbags%2CWallets%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A50.0_70.0_50.0%20TO%2070.0"
+      },
+      {
+        "index": 1,
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/179e278f-77ee-44c2-bf39-9f00b0cd08e01658752429301-Handbags_Desk.jpg",
+        "link": "https://www.myntra.com/accessories?f=Brand%3ACaprese%3A%3ACategories%3AClutches%2CHandbags%2CWallets%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"
+      },
+      {
+        "index": 2,
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/27/afa81273-a7f4-4c51-a475-077cc28698de1743082571924-9ed98a16-ac59-44f0-9fde-47ea00e9c08e1742994215755-Fwd-Haulidays-Fest-Desktop-Banner.jpg",
+        "link": "https://www.myntra.com/myntra?f=Coupons%3AFWDHAUL_123644&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0%3A%3APrice%3A0.0_1500.0_0.0%20TO%201500.0&sort=Customer%20Rating"
+      },
+      {
+        "index": 3,
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/9be788ff-39a4-4214-99d0-fc97505aae5a1658752545685-USPA_Desk_Banner.jpg",
+        "link": "https://www.myntra.com/mens-apparel?f=Brand%3AU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Denim%20Co.%2CU.S.%20Polo%20Assn.%20Tailored&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+      },
+      {
+        "index": 4,
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/31/4031994d-9092-4aa7-aea1-f52f2ae5194f1654006594976-Activewear_DK.jpg",
+        "link": "https://www.myntra.com/mens-sports-apparel?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      }
+    ],
+    "abc": [
+      {
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg"
+      },
+      {
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg"
+      },
+      {
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg"
+      },
+      {
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg"
+      },
+      {
+        "image": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg"
+      }
+    ],
+    "images": [
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/x6fQm5XU_a5fda67e4cea4c478ab78d6647c71b19.png",
+        "link": "https://www.myntra.com/trolley-bags?f=Brand%3AKiller%2CMetronaut%2CProvogue%2CRoadster%2CWROGN&rf=Discount%20Range%3A70.0_100.0_70.0%20TO%20100.0&sort=price_asc"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/7C135pzq_9f4283257fea4942aedd2d1e1685770b.png",
+        "link": "https://www.myntra.com/accessories?f=Brand%3AAISLIN%2CVoyage%3A%3ACategories%3AFrames%2CSunglasses&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0&sort=popularity"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/htGdStbM_dc103175da2e41969bdc819276e6fcc7.png",
+        "link": "https://www.myntra.com/accessories?f=Brand%3ACarlton%20London%2CHAUTE%20SAUCE%20by%20%20Campus%20Sutra%2CIDOR%2CTed%20Smith%2CUrban%20Monkey%3A%3ACategories%3AFrames%2CSunglasses%2CSunglasses%20Case&rawQuery=accessories"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/19/I7c1rDNx_f864c5b3747f406ea154a73053cef948.png",
+        "link": "https://www.myntra.com/watches?f=Brand%3AANNE%20KLEIN%2CCASIO%2CFastrack%2CKenneth%20Cole%2CPolice%2CSonata%2CTitan%2CTitan%20Raga%2CTommy%20Hilfiger%2CZOOP%20from%20TITAN%2CZoop&rawQuery=watches&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0&sort=popularity"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/QScdYeg6_59e6f71262a442bcb797c17acf1d9ea9.png",
+        "link": "https://www.myntra.com/apparel?f=Brand%3AHERE%26NOW%2CHarvard%2CKook%20N%20Keech%2CKook%20N%20Keech%20Batman%2CKook%20N%20Keech%20Disney%2CKook%20N%20Keech%20Looney%20Tunes%2CKook%20N%20Keech%20Marvel%2CKook%20N%20Keech%20Star%20Wars%2CKook%20N%20Keech%20Toons%2CMast%20%26%20Harbour%2CMinions%20by%20Kook%20N%20Keech%2CModa%20Rapido%2CRoadster%2Cether%3A%3ACategories%3AJeans%2CShirts%2CShorts%2CTrousers%2CTshirts%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A65.0_100.0_65.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/pbvs21GH_06dbda6f2d5a4f72b602618ebbe22fbc.png",
+        "link": "https://www.myntra.com/apparel?f=Brand%3AAeropostale%2CMARVEL%20STREET%2CMr%20Bowerbird%2CSOKO%20STREET%2CWROGN%2CWROGN%20ACTIVE%3A%3ACategories%3AJeans%2CShirts%2CShorts%2CTrack%20Pants%2CTrousers%2CTshirts%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/19/31zMK0H8_6c714a2f9e9149c5bb357d34a0a9f22c.png",
+        "link": "https://www.myntra.com/apparel?f=Brand%3AAeropostale%2CFCUK%2CFrench%20Connection%2CMARVEL%20STREET%2CNautica%2CSOKO%20STREET%3A%3ACategories%3AJeans%2CShirts%2CShorts%2CTrousers%2CTshirts%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/Y3efHWmC_f6faf5e0dda84af4a437e64fb504c2d1.png",
+        "link": "https://www.myntra.com/the-collective?f=Brand%3APolo%20Ralph%20Lauren%2CTed%20Baker%3A%3AGender%3Amen%2Cmen%20women&rawQuery=the%20collective&sort=popularity"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/mWm3he1U_e468f657cbe242bba2477930bef4df3d.png",
+        "link": "https://www.myntra.com/kids?f=Brand%3AAllen%20Solly%20Junior%2CU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Kids&rawQuery=kids&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0&sort=recommended"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/MMvGmLwM_4b0f767e353340029ceb1c8fb200da58.png",
+        "link": "https://www.myntra.com/womens-western-wear?f=Brand%3ADeFacto%2CJC%20Collection%2CJC%20Mode%2CKoton%2CTrendyol%3A%3ACategories%3ABlazers%2CDresses%2CJumpsuit%2CShirts%2CShorts%2CSkirts%2CTops%2CTrousers%2CTshirts&rf=Discount%20Range%3A35.0_100.0_35.0%20TO%20100.0&sort=new"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/dn1wHVQF_8c1ed05a77e94076b59a6483df7c24fb.png",
+        "link": "https://www.myntra.com/women-footwear?f=Brand%3AERIDANI%2CMetro%2CMochi%2CTresmode&rf=Discount%20Range%3A45.0_100.0_45.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/vxi6pLO1_5384e43d2038440ba98a738ce963a36d.png",
+        "link": "https://www.myntra.com/women-footwear?f=Brand%3ACatwalk%2CELLE%2CInc%205%2CLino%20Perros&rf=Discount%20Range%3A45.0_100.0_45.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/84GFA7qz_f88f94635156436b8b6ee3f3b78aaa70.png",
+        "link": "https://www.myntra.com/accessories?f=Brand%3ABerrylush%2CMetro%2CMochi%2Cyelloe%3A%3ACategories%3ABackpacks%2CBelts%2CClutches%2CHandbags%2CWallets%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0&sort=recommended"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/19/h0YIICGD_e80e8403650c4b218174528b8f8bd021.png",
+        "link": "https://www.myntra.com/personal-care?f=Categories%3ARoll-Ons&sort=popularity"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/19/8w5e3irQ_fcfa2fe8f48a40c98ff914e257264c73.png",
+        "link": "https://www.myntra.com/personal-care?f=Categories%3ALip%20Balm%3A%3ASPF%3A15%20to%2030%2C30%20to%2050%2CAbove%2050&sort=popularity"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/19/NFPu2elL_415a5041bc1745fcab33b120c33f90c1.png",
+        "link": "https://www.myntra.com/gadgets?f=Brand%3ACMF%20by%20Nothing%2COPPO&sort=popularity"
+      }
+    ],
+
+    "secondCaraousel": [
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/17/84GFA7qz_f88f94635156436b8b6ee3f3b78aaa70.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      },
+      {
+        "urls": [
+          "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/4cde4706-089f-4049-9d9c-116d8631af381691056679844-image_png1175979315.png"
+        ]
+      }
+    ],
+    "hero": [
+      {
+        "imageOne": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/27/e9371cac-47d3-4ef3-9ca7-4e1f06323b9f1743070060439-Crazy-Deals-----2.jpg",
+        "imageTwo": "https://assets.myntassets.com/w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/20/17800f8a-d24f-49e8-9d80-2a22065d2a111742464840000-Flat-100-Off.jpg",
+        "imageThree": "https://assets.myntassets.com/w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/20/22c8b3ae-b14c-4b8d-913b-dc632978cd941742464839978-Flat-200-Off.jpg",
+        "imageFour": "https://assets.myntassets.com/w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/28/b147bfad-81c5-4dfe-b571-e6c3d50954c21743182982104-Dektop_Home----HIM--1-.jpg",
+        "imageFive": "https://assets.myntassets.com/w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/28/b47243f2-686e-4e93-ac4b-eb10d8deafa91743182976538-Dektop_Home----Her.jpg",
+        "imageSix": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/27/fef59866-4869-431c-977a-4eac9f1dfecf1743062491487-FLAT-400-Off-on-1st-Purchase-Strip.jpg",
+        "headingImage": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/27/6aef4a2f-9bb2-4599-b46b-7cdd2e75848a1743069910057-Shop-By-Category.jpg",
+        "footerImage": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/3/27/a4720a50-1594-4b1f-aff8-10bffa17214b1743070164003-App-Install-Banner.jpg"
+      }
+    ],
+    "category": [
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/deaSvBr9_e37cfad2f79d42d482c24c3ce8881687.jpg",
+        "link": "https://www.myntra.com/fusion-wear?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0&sort=popularity"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/RSC6Qoba_809c0b9d58b1452a80b452cbefb17104.jpg",
+        "link": "https://www.myntra.com/men-casual-wear?plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/luBpvK1O_598e6fd66fbf459b9232e7b26c3a2be9.jpg",
+        "link": "https://www.myntra.com/sports-wear?f=Gender%3Amen%2Cmen%20women&rawQuery=sports%20wear&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/GliVYdAy_5604a2522ead400faa56c81d5aa00bb4.jpg",
+        "link": "https://www.myntra.com/wsa-all-new?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/FJKkkyVd_6a17a9d5e7894c90850e457ab7f39630.jpg",
+        "link": "https://www.myntra.com/womens-western-wear?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/X0pMuXb2_4e76ca1bef774bdf8ebca267ee0858aa.jpg",
+        "link": "https://www.myntra.com/sport-apparel-?rawQuery=sport%20apparel%20"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/sZvBOtW3_d86f8ed4617e44c99835063acdc49aed.jpg",
+        "link": "https://www.myntra.com/loungewear?plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/fBKBd6eJ_9928d3397f044f6f8a57609dc91e62b9.jpg",
+        "link": "https://www.myntra.com/men-innerwear?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/jyfCIRxP_4fcc40e31e324341b9f836120f05c2da.jpg",
+        "link": "https://www.myntra.com/lingerie?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/NMlPVWaj_638b55e948da4db3bbef4a300b8f0e80.jpg",
+        "link": "https://www.myntra.com/watches?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/7HKuotbO_84d0d675db894ef6ac239bf9bac3add9.jpg",
+        "link": "https://www.myntra.com/beauty-page-appliances?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/Q8PyW28E_a56a794e3f7549628b8ba201fc91aca5.jpg",
+        "link": "https://www.myntra.com/grooming?f=Brand%3ABeardhood%2CBombay%20Shaving%20Company%2CFoolzy%2CTHE%20MAN%20COMPANY%2CUstraa&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/EeNrEPEE_0e498814e1194d29a873c45b9c712c39.jpg",
+        "link": "https://www.myntra.com/kids?plaEnabled=false&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/Mhs2WTKm_a1e7415cb9e24e3984bd1352f83bcb52.jpg",
+        "link": "https://www.myntra.com/footwear?f=Gender%3Amen%2Cmen%20women&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/GX1IYlh0_a91b8e3d05bf400593c24617625a3d6c.jpg",
+        "link": "https://www.myntra.com/footwear-new?f=Gender%3Amen%20women%2Cwomen&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/AIsH5k1L_66e4c6d4e7884d6db3e61ece90ad87b8.jpg",
+        "link": "https://www.myntra.com/men-accessories?f=Categories%3ABelts%2CWallets&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/DK9Ramvu_b11e51ef5f4d4177a1bedc9d3cff66ca.jpg",
+        "link": "https://www.myntra.com/office-wear-men-and-women?rawQuery=office%20wear%20men%20and%20women"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/JKjQcpaj_6cf5b819b47a4e02be5cf0395b33f5ac.jpg",
+        "link": "https://www.myntra.com/men-ethnic-wear?plaEnabled=false&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/RNBebivZ_70f6fce8bb524cd1a89ff2e5fa57d228.jpg",
+        "link": "https://www.myntra.com/home-furnishing-menu?plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/D5wtX4C5_0701df2ea28741f0ac8c6600d2c9d621.jpg",
+        "link": "https://www.myntra.com/handbags-and-bags?f=Categories%3AClutches%2CHandbags%2CWallets%3A%3AGender%3Amen%20women%2Cwomen&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/WO6iYzD5_3c5db2127a0a44b596c286e18e773d82.jpg",
+        "link": "https://www.myntra.com/gadgets?f=Categories%3AHeadphones%2CSpeakers&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/VyFhQF60_d557f339064549e4a99076c7710ac523.jpg",
+        "link": "https://www.myntra.com/women-jewellery?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/3tLgGdvk_26102ac48a0f497f98e4255742eeb34d.jpg",
+        "link": "https://www.myntra.com/plus-size-all?f=Gender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0&sort=new"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/ILdIfaR0_009b35ff539c46428c1c4a45251aa644.jpg",
+        "link": "https://www.myntra.com/plus-size-all?f=Gender%3Amen%2Cmen%20women&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0&sort=new"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/ASmrOUqo_4e4a83e2f21d481692424c6f994f9e47.jpg",
+        "link": "https://www.myntra.com/watches?rawQuery=Watches&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/Cs3tkAK0_1636aa44c84543108e03fe0fcdaa1bc8.jpg",
+        "link": "https://www.myntra.com/loungewear?f=Gender%3Amen%20women%2Cwomen&plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/YrmrphP3_9bc7750b1fca4b78a75ed7c73268a0e6.jpg",
+        "link": "https://www.myntra.com/work-wear-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-work-wear-men&rawQuery=Work%20Wear%20Men"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/XqaxSD9u_dca274c91343460682f8a1e31611e63d.jpg",
+        "link": "https://www.myntra.com/eyewear?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/CHrN1AGG_37ab005f8f474df1bbea2faf951e8c19.jpg",
+        "link": "https://www.myntra.com/work-wear-women?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-work-wear-women&rawQuery=Work%20Wear%20Women"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/O5uJyMd0_eac24cf08a8d47e5afd694658ea78b71.jpg",
+        "link": "https://www.myntra.com/casual-wear-women-dress?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-casual-wear-women-dress&rawQuery=Casual%20Wear%20Women%20Dress"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/rGcVbYqA_3a29db94f546498ea2a3f506bc40241a.jpg",
+        "link": ""
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/awDsiQwu_20fa87e43ff44987bcd3a0819d92ec4e.jpg",
+        "link": "https://www.myntra.com/trolley-bags?plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/vS652XbB_37f8d476b09e49498a789298e52568ca.jpg",
+        "link": "https://www.myntra.com/trolley-bags?plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "image_url": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/MARCH/27/QnRtOGf3_5349a1f2300f4d81b7ac6cca18ae1518.jpg",
+        "link": "https://www.myntra.com/flipflop?f=Gender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      }
+    ]
+  },
+  "profile": {
+    "title": "Welcome",
+    "description": "To access account and manage orders",
+    "links": [
+      {
+        "text": "Login / Signup",
+        "url": "/login"
+      },
+      {
+        "text": "Orders",
+        "url": "/my/orders"
+      },
+      {
+        "text": "Wishlist",
+        "url": "/login"
+      },
+      {
+        "text": "Gift Cards",
+        "url": "/giftcard"
+      },
+      {
+        "text": "Contact Us",
+        "url": "/contactus"
+      },
+      {
+        "text": "Myntra Insider",
+        "url": "/myntrainsider?cache=false",
+        "tag": "New"
+      },
+      {
+        "text": "Myntra Credit",
+        "url": "/my/myntracredit"
+      },
+      {
+        "text": "Coupons",
+        "url": "/my/coupons"
+      },
+      {
+        "text": "Saved Cards",
+        "url": "/my/savedcards"
+      },
+      {
+        "text": "Saved VPA",
+        "url": "/my/savedvpa"
+      },
+      {
+        "text": "Saved Addresses",
+        "url": "/my/address"
+      },
+      {
+        "text": "Feedback About App",
+        "url": "/contact"
+      }
+    ]
+  }
+  
+}
