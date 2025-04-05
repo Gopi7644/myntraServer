@@ -35,18 +35,30 @@ app.post("/api/feedback", async (req, res) => {
 
     // Email options
     const mailOptions = {
-      from: `<${email}>`, // Sender address
+      from: `From  ${name} ${process.env.EMAIL_USER}`, // Sender address
       to: process.env.FEEDBACK_EMAIL, // Feedback recipient email
       subject: "New Feedback Received",
+      replyTo: email, // Reply-to address
       html: `
-      <h2>New Feedback Received</h2>
-      <p><strong>Name:</strong> ${name}</p>
-      <p><strong>Email:</strong> ${email}</p>
-      <p><strong>phone:</strong> ${phone}</p>
-      <p><strong>Location:</strong> ${location}</p>
-      <p><strong>Feedback:</strong><br>${feedback}</p>
-    `,
-      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nLocation: ${location}\nMessage: ${feedback}`,
+        <div style="max-width: 600px; margin: auto; background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div style="background-color: #4CAF50; color: #ffffff; padding: 20px; text-align: center;">
+      <h2 style="margin: 0;">📬 नया फीडबैक प्राप्त हुआ</h2>
+    </div>
+    <div style="padding: 20px;">
+      <p style="font-size: 16px; margin-bottom: 10px;"><strong>👤 नाम:</strong> ${name}</p>
+      <p style="font-size: 16px; margin-bottom: 10px;"><strong>📧 ईमेल:</strong> ${email}</p>
+      <p style="font-size: 16px; margin-bottom: 10px;"><strong>📱 फ़ोन:</strong> ${phone}</p>
+      <p style="font-size: 16px; margin-bottom: 10px;"><strong>📍 स्थान:</strong> ${location}</p>
+      <p style="font-size: 16px; margin-top: 20px; margin-bottom: 5px;"><strong>💬 संदेश:</strong></p>
+      <div style="font-size: 15px; background-color: #f4f4f4; padding: 15px; border-left: 4px solid #4CAF50; border-radius: 5px; white-space: pre-line;">
+        ${feedback}
+      </div>
+    </div>
+    <div style="background-color: #f1f1f1; text-align: center; padding: 10px; font-size: 13px; color: #777;">
+      यह ईमेल आपके वेबसाइट फीडबैक फॉर्म से भेजा गया है।
+    </div>
+  </div>
+    `
     };
 
     // Send the email
