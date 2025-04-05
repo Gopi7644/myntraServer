@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import fs from "fs";
 import nodemailer from "nodemailer"; // Import nodemailer
+import otpRoutes from "./Routes/otpRoutes.js"; // Import the OTP routes
 
 const app = express();
 dotenv.config();
@@ -11,7 +12,15 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const PORT = process.env.PORT || 3000;
 
+
 const jsonData = JSON.parse(fs.readFileSync("data.json", "utf-8"));
+
+// Middleware to log the request body
+app.use((req, res, next) => {
+  console.log("Request Body:", req.body); // Log the request body
+  next();
+});
+app.use("/api", otpRoutes); // Use the OTP routes
 
 // Feedback email route
 app.post("/api/feedback", async (req, res) => {
