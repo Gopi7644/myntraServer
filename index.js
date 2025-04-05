@@ -35,7 +35,7 @@ app.post("/api/feedback", async (req, res) => {
 
     // Email options
     const mailOptions = {
-      from: `Name{name} {email}`, // Sender address
+      from: `Name: ${name} ${email}`, // Sender address
       to: process.env.FEEDBACK_EMAIL, // Feedback recipient email
       subject: "New Feedback Received",
       html: `
