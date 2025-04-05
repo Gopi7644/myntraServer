@@ -39,12 +39,12 @@ app.post("/api/feedback", async (req, res) => {
       to: process.env.FEEDBACK_EMAIL, // Feedback recipient email
       subject: "New Feedback Received",
       html: `
-      <h2>नया फीडबैक प्राप्त हुआ</h2>
-      <p><strong>नाम:</strong> ${name}</p>
-      <p><strong>ईमेल:</strong> ${email}</p>
-      <p><strong>फ़ोन:</strong> ${phone}</p>
-      <p><strong>स्थान:</strong> ${location}</p>
-      <p><strong>संदेश:</strong><br>${feedback}</p>
+      <h2>New Feedback Received</h2>
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>phone:</strong> ${phone}</p>
+      <p><strong>Location:</strong> ${location}</p>
+      <p><strong>Feedback:</strong><br>${feedback}</p>
     `,
       text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nLocation: ${location}\nMessage: ${feedback}`,
     };
