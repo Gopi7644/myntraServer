@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import fs from "fs";
 import nodemailer from "nodemailer"; // Import nodemailer
 import otpRoutes from "./Routes/otpRoutes.js"; // Import the OTP routes
+import mongoose from "mongoose"; // Import mongoose for MongoDB connection
+import phoneOrEmailRoutes from "./Routes/phoneOrEmailRoutes.js"; // Import the phone or email routes
 
 const app = express();
 dotenv.config();
@@ -11,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const PORT = process.env.PORT || 3000;
-
+const DBURL = process.env.DBURL; // MongoDB connection string
 
 const jsonData = JSON.parse(fs.readFileSync("data.json", "utf-8"));
 
@@ -21,12 +23,12 @@ app.use((req, res, next) => {
   next();
 });
 app.use("/api", otpRoutes); // Use the OTP routes
+app.use("/api", phoneOrEmailRoutes); // Use the phone or email routes
 
 // Feedback email route
 app.post("/api/feedback", async (req, res) => {
   const { name, email, phone, location, feedback } = req.body;
   console.log("Received body:", req.body); // यह लाइन जोड़ें
-  
 
   if (!name || !email || !phone || !location || !feedback) {
     return res.status(400).json({ error: "All fields are required" });
@@ -67,7 +69,7 @@ app.post("/api/feedback", async (req, res) => {
       यह ईमेल आपके वेबसाइट फीडबैक फॉर्म से भेजा गया है।
     </div>
   </div>
-    `
+    `,
     };
 
     // Send the email
@@ -83,6 +85,14 @@ app.get("/api/data", (req, res) => {
   res.json(jsonData);
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+mongoose
+  .connect(DBURL)
+  .then(() => {
+    console.log("Connected to MongoDB");
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error("Error connecting to MongoDB:", err);
+  });
